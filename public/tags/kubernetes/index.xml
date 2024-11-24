@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Kubernetes on devops/thejaxon</title>
+    <link>http://localhost:1313/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on devops/thejaxon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Mohamed Mostafa ElSayed Mohamed - [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)</copyright>
+    <lastBuildDate>Sat, 23 Nov 2024 22:28:14 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Helmfile</title>
+      <link>http://localhost:1313/posts/helmfile/</link>
+      <pubDate>Sat, 23 Nov 2024 22:28:14 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/helmfile/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

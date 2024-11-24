@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Posts on devops/thejaxon</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on devops/thejaxon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Mohamed Mostafa ElSayed Mohamed - [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)</copyright>
+    <lastBuildDate>Sat, 23 Nov 2024 22:33:48 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>&lt; Hello World /&gt;</title>
+      <link>http://localhost:1313/posts/hello_world/</link>
+      <pubDate>Sat, 23 Nov 2024 22:33:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/hello_world/</guid>
+      <description><![CDATA[<p>I&rsquo;ve used <a href="https://gohugo.io/">Hugo</a> in the past and deployed a sample blog, but that was all.</p>
+<p>I published a single post and then forgot about the idea.</p>
+<p>This is yet another attempt to write more&hellip; I hope so.</p>
+<hr>
+<h3 id="how-was-this-blog-created-">How was this blog created ?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site hugo-sample <span style="color:#f92672">&amp;&amp;</span> cd hugo-sample
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>git clone https://gitlab.com/gabmus/hugo-ficurinia.git themes/hugo-ficurinia
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Refer to https://gitlab.com/gabmus/hugo-ficurinia#configuration for configuration sample</span>
+</span></span><span style="display:flex;"><span>touch config.toml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Add blog content</span>
+</span></span><span style="display:flex;"><span>hugo new content content/posts/hello_world.md
+</span></span></code></pre></div>]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>
