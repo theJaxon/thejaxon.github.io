@@ -15,9 +15,9 @@ This is yet another attempt to write more... I hope so.
 
 ### How was this blog created ?
 ```bash
-hugo new site hugo-sample && cd hugo-sample
+hugo new site thejaxon.github.io && cd thejaxon.github.io
 
-git clone https://gitlab.com/gabmus/hugo-ficurinia.git themes/hugo-ficurinia
+git submodule add https://gitlab.com/gabmus/hugo-ficurinia.git themes/hugo-ficurinia
 
 # Refer to https://gitlab.com/gabmus/hugo-ficurinia#configuration for configuration sample
 touch config.toml
