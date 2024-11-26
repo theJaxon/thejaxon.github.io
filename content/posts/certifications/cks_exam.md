@@ -35,6 +35,8 @@ My second attempt was on `Sunday, November 24, 2024, at 8:30 AM` , I tried to re
 
 Regardless It was done in the same month and thankfully the goal was accomplished.
 
+Certificate verification can be done via [LF-k6nmlvu9yy](https://training.linuxfoundation.org/certification/verify/).
+
 ---
 
 ### Useful resources
