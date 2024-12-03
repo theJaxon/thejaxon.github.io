@@ -15,8 +15,8 @@ summaryLength = 70  # number of words for article summaries
    pagerSize = 5
 
 [params]
-    author = "Gabriele Musco"
-    description = "A description for my website"  # this will be added as metadata
+    author = "Mohamed Mostafa ElSayed"
+    description = "DevOpsing..."  # this will be added as metadata
 
     posts = "posts"  # content directory where to find home page posts; default searches in "posts" and "post"
     showPostsLink = true  # show or hide the link to the simple post list
@@ -92,7 +92,7 @@ summaryLength = 70  # number of words for article summaries
     umamiScriptUrl = "https://something.com/..."
     umamiWebsiteId = "example-tracking-code"
 
-    enableShareOnFediverse = false  # enable a button at the end of an article to share it on the fediverse
+    enableShareOnFediverse = true  # enable a button at the end of an article to share it on the fediverse
     tocBeforeImage = false  # show the table of contents before the main article image; default false
 
     # you can customize all of the colors in this theme via data/colors.yml
@@ -114,7 +114,7 @@ summaryLength = 70  # number of words for article summaries
     enableJumbotron = false  # enables jumbotron, as described below
     # related articles will be selected randomly based on tags and shown at
     # the bottom of the article, after the comments
-    enableRelatedArticles = false
+    enableRelatedArticles = true
     relatedArticlesNum = 2  # how many related articles to show
     randomRelated = false  # sorts related articles in random order (randomized at built time)
 
