@@ -1,10 +1,12 @@
 ---
 title: "CKS Exam V1.31"
 date: 2024-11-24T22:02:12+01:00
+categories:
+  - certifications
 tags:
   - kubernetes
   - linuxfoundation
-image: /posts/certifications/images/cks_certificate_2024.jpg
+featuredImage: /posts/certifications/images/cks_certificate_2024.jpg
 comments: true
 ---
 

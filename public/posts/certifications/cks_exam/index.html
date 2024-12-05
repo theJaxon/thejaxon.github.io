@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  CKS Exam V1.31 · DevOps/the_jaxon
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Mohamed Mostafa ElSayed">
+<meta name="description" content="I wanted to renew my expired CKS certification. After some studying, I decided to just go for it.
+My first attempt was on Sunday, November 10, 2024, at 10:30 PM, and it ended in catastrophic failure. However, I&rsquo;ve also learned some lessons from it.
+
+
+  1. Time is everything
+  
+    
+    Link to heading
+  
+
+I scheduled the exam at a late time, I know here I&rsquo;m overstating the obvious but honestly I just underestimated the exam.">
+<meta name="keywords" content="blog,devops,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CKS Exam V1.31">
+  <meta name="twitter:description" content="I wanted to renew my expired CKS certification. After some studying, I decided to just go for it.
+My first attempt was on Sunday, November 10, 2024, at 10:30 PM, and it ended in catastrophic failure. However, I’ve also learned some lessons from it.
+1. Time is everything Link to heading I scheduled the exam at a late time, I know here I’m overstating the obvious but honestly I just underestimated the exam.">
+
+<meta property="og:url" content="http://localhost:1313/posts/certifications/cks_exam/">
+  <meta property="og:site_name" content="DevOps/the_jaxon">
+  <meta property="og:title" content="CKS Exam V1.31">
+  <meta property="og:description" content="I wanted to renew my expired CKS certification. After some studying, I decided to just go for it.
+My first attempt was on Sunday, November 10, 2024, at 10:30 PM, and it ended in catastrophic failure. However, I’ve also learned some lessons from it.
+1. Time is everything Link to heading I scheduled the exam at a late time, I know here I’m overstating the obvious but honestly I just underestimated the exam.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-24T22:02:12+01:00">
+    <meta property="article:modified_time" content="2024-11-24T22:02:12+01:00">
+    <meta property="article:tag" content="Kubernetes">
+    <meta property="article:tag" content="Linuxfoundation">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/certifications/cks_exam/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      DevOps/the_jaxon
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/certifications/cks_exam/">
+              CKS Exam V1.31
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-11-24T22:02:12&#43;01:00">
+                November 24, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/certifications/">Certifications</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/kubernetes/">Kubernetes</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/linuxfoundation/">Linuxfoundation</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="/posts/certifications/images/cks_certificate_2024.jpg" alt="Featured image"/>
+        
+        <p>I wanted to renew my expired CKS certification. After some studying, I decided to just go for it.</p>
+<p>My first attempt was on <code>Sunday, November 10, 2024, at 10:30 PM</code>, and it ended in catastrophic failure. However, I&rsquo;ve also learned some lessons from it.</p>
+<hr>
+<h4 id="1-time-is-everything">
+  1. Time is everything
+  <a class="heading-link" href="#1-time-is-everything">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>I scheduled the exam at a late time, I know here I&rsquo;m overstating the obvious but honestly I just underestimated the exam.</p>
+<p>It&rsquo;s not an easy one and It&rsquo;s very time consuming, you will need every minute because you&rsquo;re only given <strong>2 hours</strong> to solve <strong>16 performance-based tasks</strong>, that&rsquo;s not a lot of time at all and my first attempt resulted in me not having enough time to go through 4 of these questions.</p>
+<h4 id="2-reiterate-over-the-new-exam-objectives">
+  2. Reiterate over the new exam objectives
+  <a class="heading-link" href="#2-reiterate-over-the-new-exam-objectives">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Since I was previously CKS certified, I just assumed there wouldn’t be significant changes. Boy, was I wrong!</p>
+<p>The exam changed a lot and that was a surprise for me (Not a good one when you&rsquo;re taking the exam) so better check the new objectives, here i&rsquo;m listing the weakness points for me on the first attempt:</p>
+<ol>
+<li>Implement Pod-to-Pod encryption using Cilium</li>
+<li>Understand your supply chain (e.g. SBOM, CI/CD, artifact repositories)</li>
+<li>Use appropriate pod security standards</li>
+</ol>
+<h4 id="3-use-exam-simulators">
+  3. Use exam simulators
+  <a class="heading-link" href="#3-use-exam-simulators">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>You can use the provided CKS exam simulator at <a href="https://killer.sh/dashboard"  class="external-link" target="_blank" rel="noopener">killer.sh</a> as a way of validation, personally I didn&rsquo;t invest heavily in it, I just wanted to have a feeling of the exam environment once more as i was preparing for my 2nd attempt.</p>
+<h4 id="4-reschedule-asap">
+  4. Reschedule ASAP
+  <a class="heading-link" href="#4-reschedule-asap">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>My second attempt was on <code>Sunday, November 24, 2024, at 8:30 AM</code> , I tried to reschedule it earlier but there should also be some room to reiterate over why the first attempt was a failure.</p>
+<p>Regardless It was done in the same month and thankfully the goal was accomplished.</p>
+<p>Certificate verification can be done via <a href="https://training.linuxfoundation.org/certification/verify/"  class="external-link" target="_blank" rel="noopener">LF-k6nmlvu9yy</a>.</p>
+<hr>
+<h3 id="useful-resources">
+  Useful resources
+  <a class="heading-link" href="#useful-resources">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ol>
+<li><a href="https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/"  class="external-link" target="_blank" rel="noopener">CKS Exam Objectives</a></li>
+<li><a href="https://kodekloud.com/blog/cks-exam-updates-2024-your-complete-guide-to-certification-with-kodekloud/"  class="external-link" target="_blank" rel="noopener">CKS Exam Updates 2024: Your Complete Guide to Certification with KodeKloud</a></li>
+<li><a href="https://killercoda.com/killer-shell-cks/"  class="external-link" target="_blank" rel="noopener">Killer Shell CKS - Interactive Scenarios for Kubernetes Security</a></li>
+</ol>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Mohamed Mostafa ElSayed 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

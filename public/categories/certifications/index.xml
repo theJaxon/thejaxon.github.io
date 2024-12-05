@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kubernetes on DevOps/the_jaxon</title>
-    <link>http://localhost:1313/tags/kubernetes/</link>
-    <description>Recent content in Kubernetes on DevOps/the_jaxon</description>
+    <title>Certifications on DevOps/the_jaxon</title>
+    <link>http://localhost:1313/categories/certifications/</link>
+    <description>Recent content in Certifications on DevOps/the_jaxon</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 24 Nov 2024 22:02:12 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/certifications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CKS Exam V1.31</title>
       <link>http://localhost:1313/posts/certifications/cks_exam/</link>
