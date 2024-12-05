@@ -50,8 +50,8 @@ style = "github-dark"
 [[params.social]]
   name = "Linkedin"
   icon = "fa-brands fa-linkedin fa-2x"
-  weight = 3
-  url = "https://twitter.com/johndoe/"
+  weight = 2
+  url = "https://linkedin.com/in/mohamedmostafaels/"
 
 # Menu links
 [[menu.main]]
