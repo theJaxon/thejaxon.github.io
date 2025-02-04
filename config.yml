@@ -71,8 +71,8 @@ params:
 
   socialIcons:
     - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
+      title: View my Github profile
+      url: "https://github.com/theJaxon"
     - name: Linkedin
       title: Linkedin
       url: "https://www.linkedin.com/in/mohamedmostafaels/"
