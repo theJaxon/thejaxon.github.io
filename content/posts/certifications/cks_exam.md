@@ -6,7 +6,8 @@ categories:
 tags:
   - kubernetes
   - linuxfoundation
-featuredImage: /posts/certifications/images/cks_certificate_2024.jpg
+cover:
+  image: /posts/certifications/images/cks_certificate_2024.jpg
 comments: true
 ---
 
