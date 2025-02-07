@@ -65,9 +65,9 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Welcome to my personal blog"
+    Title: "Mohamed Mostafa aka Jaxon welcomes you."
     Content: >
-      👋 Here i try to write about stuff that I'm interested in.
+      👋 Here I write about stuff that I'm interested in.
 
   socialIcons:
     - name: github
