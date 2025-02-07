@@ -1,0 +1,41 @@
+---
+title: "Mkube V1.29.12-1"
+date: 2025-02-07T10:00:22+01:00
+tags:
+  - kubernetes
+  - vagrant
+  - ansible
+cover:
+  image: /posts/projects/images/headlamp_with_mkube_running.png
+---
+
+MKube is the continuation of a personal project that I've started ([Kontainer8)](https://github.com/theJaxon/Kontainer8)).
+
+I wanted to have a real Kubernetes cluster available locally, Ideally it should be stable enough so that I can reboot, spin it up again and It should work fine with everything that was configured.
+
+---
+
+### What changed
+- The base box is now [bento/fedora 40](https://portal.cloud.hashicorp.com/vagrant/discover/bento/fedora-40).
+- **cri-o** as the container runtime.
+- **Cilium** as the CNI.
+
+---
+
+### Story behind it
+
+The project worked quiet well, even in my past role I used to first go, make a demo on that cluster, ensure everything was alright before proceeding.
+
+Since I've started using Mac laptop with M1 Chip, I've faced many issues, I'm no longer able to use Virtualbox (Which was the main provider that vagrant uses).
+
+I looked for workarounds and sure enough, VMWare fusion seemed like a nice alternative and there was a guide on how to combine both Vagrant + VMWare fusion on Mac M1 but I've struggled finding a base vagrant box that supports that provider on ARM64 architecture.
+
+Recently I was able to get everything working by using bento/fedora base box, there's a minor issue when using `private_network` in Vagrant with fedora and that is, the machine doesn't get the proper IP specified assigned, It's addressed in the issue [12762](https://github.com/hashicorp/vagrant/issues/12762) and a workaround is provided in [one of the comments by @CDFN](https://github.com/hashicorp/vagrant/issues/12762#issuecomment-1535957837).
+
+I had to refactor the project, introduce `requirements.yml` file to install needed dependencies for ansible and finally `vagrant up, reload, destroy` to make sure everything is alright. 
+
+### What should be improved
+
+- I still need to work on the idempotency part of the join script which is the last command invoked but It's very minor at this point.
+- I need to have packer images ready for this project to save time updating and installing dependencies.
+
