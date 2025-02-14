@@ -79,4 +79,5 @@ params:
 
 services:
   disqus:
-      shortname: the_jaxon
+    shortname: thejaxon-github-io
+
