@@ -77,7 +77,6 @@ params:
       title: Linkedin
       url: "https://www.linkedin.com/in/mohamedmostafaels/"
 
-disqus:
-  enable: true
-  shortname: the_jaxon
-  count: true
+services:
+  disqus:
+      shortname: the_jaxon
