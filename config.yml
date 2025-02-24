@@ -30,13 +30,16 @@ outputs:
     - JSON
 
 params:
+  assets:
+    favicon: "assets/favicon.svg"
+    favicon16x16: "assets/favicon.svg" 
+    favicon32x32: "assets/favicon.svg" 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   author: Jaxon
-  # author: ["Me", "You"] # multiple authors
-
   defaultTheme: auto
   # disableThemeToggle: true
+
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
@@ -50,7 +53,6 @@ params:
   ShowToc: true
   comments: true
   images: ["images/papermod-cover.png"]
-
   profileMode:
     enabled: false
     title: PaperMod
@@ -67,7 +69,8 @@ params:
   homeInfoParams:
     Title: "Mohamed Mostafa aka Jaxon welcomes you."
     Content: >
-      👋 Here I write about stuff that I'm interested in.
+      👋 Here I write about stuff that I'm interested in, it will mostly be DevOps and automation related.
+      I do have other hobbies like dancing, riding electric unicycles but mostly here it's gonna be tech related.
 
   socialIcons:
     - name: github
