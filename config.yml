@@ -30,6 +30,10 @@ outputs:
     - JSON
 
 params:
+  label:
+    icon: "assets/favicon.svg"
+    text: theJaxon/DevOps
+    iconHeight: 30
   assets:
     favicon: "assets/favicon.svg"
     favicon16x16: "assets/favicon.svg" 

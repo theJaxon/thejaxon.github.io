@@ -5,6 +5,8 @@ tags:
   - packer
   - vagrant
   - nixos
+summary: >
+  How to create Vagrant box for NixOS on arm64 (Mac M1) via Hashicorp Packer, In this blog I share what I've learned creating my first Vagrant box.
 cover:
   image: /posts/projects/images/baking_nixos_vagrant_box_with_packer.png
 ---
