@@ -32,6 +32,34 @@ AI Image overview takes an image as an input, sends it to Bedrock LLM, gets the 
 ### 3. Bedrock
   - Gets invoked via Lambda and is the service used to describe what's in that image.
 
+---
+
+## Outcome
+1. Sceenshot gets taken and stored in S3 (Via Canary Synthetics)
+
+![ai_image_overview_btc_price_input](/posts/projects/images/ai_image_overview_btc_price_input.png)
+
+2. The Bedrock model now returns the following based on our prompt
+```python
+prompt = """
+You are a crypto expert.
+Analyze the provided screenshot and generate a concise, technical summary for where Bitcoin is heading. Respond in the following JSON format:
+{
+    "current_price_usd": "Current price of Bitcoin in USD.",
+    "summary": "Overview of where you think the market is heading based on the current chart, whether its the right time to buy or not."
+}
+"""
+```
+
+```json
+{
+  "current_price_usd": "$89,290.30",
+  "summary": "Bitcoin is showing a downward trend with a 0.17% decrease. The price chart displays significant volatility with the price having reached a high of $89,838.00 and a low of $89,183.56 in the current period. The market appears to be in a short-term consolidation phase after testing higher levels around $89,800. Given the recent pattern of lower highs and the current price action showing resistance to upward movement, Bitcoin may experience further short-term pressure. However, with substantial market cap ($1.78T) and trading volume ($15.24B), the asset remains fundamentally strong. This minor pullback might present a strategic entry point for those looking to accumulate, though traders should watch for a potential break below $89,000 which could signal further downside."
+}
+```
+
+---
+
 ## References
 - [ai_image_overview repository](https://github.com/theJaxon/ai_image_overview)
 
