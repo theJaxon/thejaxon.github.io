@@ -2,6 +2,15 @@
 title: "AI Image Overview"
 date: 2026-01-24T22:27:39+01:00
 draft: false
+categories:
+  - aws
+tags:
+  - aws
+  - bedrock
+  - ai
+  - cloudwatch
+  - s3
+  - lambda
 summary: >
   Combining Canary Synthetics + Lambda + BedRock to periodically describe a graph.
 cover:
