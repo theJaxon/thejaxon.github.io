@@ -1,6 +1,6 @@
 ---
 title: "Mkube V1.37.1 🎉🎉"
-date: 2026-10-24T18:00:00+02:00
+date: 2026-10-24T15:00:00+02:00
 draft: false
 tags:
   - kubernetes
